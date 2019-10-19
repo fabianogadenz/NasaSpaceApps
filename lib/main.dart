@@ -1,3 +1,4 @@
+import 'package:app_nasa/data/localizacao.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -28,6 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
+    BuscaLocalizacaoAtual.buscaLocalizacao();
     setState(() {
       _counter++;
     });

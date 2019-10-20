@@ -1,6 +1,7 @@
 import 'package:app_nasa/bloc/bloc.dart';
 import 'package:app_nasa/data/localizacao.dart';
 import 'package:app_nasa/data/rest.dart';
+import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
 import 'package:onesignal_flutter/onesignal_flutter.dart';
 
@@ -64,18 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.display1,
-            ),
-          ],
-        ),
+        child: FlareActor("assets/flare.flr", alignment:Alignment.center, fit:BoxFit.contain, animation:"Untitled")
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,

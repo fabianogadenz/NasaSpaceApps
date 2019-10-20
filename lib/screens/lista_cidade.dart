@@ -1,5 +1,8 @@
+import 'package:app_nasa/data/rest.dart';
 import 'package:app_nasa/data/uf_cidades_data.dart';
+import 'package:app_nasa/widgets/utils.dart';
 import 'package:flutter/material.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class ListaCidadesScreen extends StatefulWidget {
   @override
@@ -10,19 +13,36 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
   List<String> cidades_filtradas, cidades = [];
   int qtd_cidades = 0;
   int t = 0;
+  double valorMarcados = null;
+  bool isLoading = false;
 
   @override
   Widget build(BuildContext context) {
     setState(() {
       if (t == 0) {
+        FocusScope.of(context).requestFocus(new FocusNode());
         qtd_cidades = UfCidadesData.cidadeUF.length;
         cidades_filtradas = cidades = UfCidadesData.cidadeUF;
         t++;
-        print("teste");
       }
     });
 
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        child: new Icon(MdiIcons.bullhorn),
+        backgroundColor: Colors.red[400],
+        onPressed: () async {
+          setState(() {
+            isLoading = true;
+          });
+          Rest.buscaStatusNomeCidade("medianeira").then((valor) {
+            print(valor);
+            setState(() {
+              isLoading = false;
+            });
+          });
+        },
+      ),
       body: Stack(
         children: <Widget>[
           Container(
@@ -49,7 +69,7 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
             ),
             child: Center(
               child: Text(
-                'Digite a cidade',
+                'Busque por cidade',
                 style: TextStyle(color: Colors.white, fontSize: 30),
               ),
             ),
@@ -66,9 +86,7 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
                 autofocus: true,
                 onChanged: (value) {
                   setState(() {
-                    print(value);
                     cidades_filtradas = cidadesFilter(value);
-                    print(cidades_filtradas.length);
                     qtd_cidades = cidades_filtradas.length;
                   });
                 },
@@ -78,16 +96,23 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
                       color: Colors.black,
                     ),
                     border: InputBorder.none,
-                    hintText: 'Digite aqui'),
+                    hintText: 'Digite o nome da cidade...'),
               ),
             ),
           ),
-          Container(
-            margin: EdgeInsets.only(top: 230),
-            width: double.infinity,
-            height: MediaQuery.of(context).size.height - 200,
-            child: lista_cidades(),
-          ),
+          !isLoading
+              ? Container(
+                  margin: EdgeInsets.only(top: 230),
+                  width: double.infinity,
+                  height: MediaQuery.of(context).size.height - 200,
+                  child: Utils.mostraMarcador())
+              : Center(
+                  child: Container(
+                      margin: EdgeInsets.only(top: 130),
+                      width: 100,
+                      height: 100,
+                      child: Utils.mostraLoading()),
+                ),
           Container(
             width: double.infinity,
             height: MediaQuery.of(context).size.height,
@@ -104,6 +129,12 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
           return ListTile(
             title: Text(cidades_filtradas[index].toString()),
             trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Rest.buscaStatusNomeCidade(cidades_filtradas[index].toString())
+                  .then((valor) {
+                print(valor);
+              });
+            },
             leading: CircleAvatar(
               child: Text(cidades_filtradas[index]
                   .toString()

@@ -94,10 +94,12 @@ class IntroOnePage extends StatelessWidget {
             Positioned(
                 top: 20.0,
                 left: MediaQuery.of(context).size.width / 2 - 50,
-                child: Image.asset(
-                  'assets/smwallet/logo.png',
+                child:
+                Image.asset(
+                  'assets/234049726023202.jpg',
                   width: 100,
-                ))
+                )
+            )
           ],
         ),
       ),

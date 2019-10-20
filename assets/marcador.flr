@@ -323,7 +323,7 @@
 				{
 					"name": "Color",
 					"parent": 7,
-					"opacity": 1,
+					"opacity": 0.5,
 					"color": [
 						0.4000000059604645,
 						0.4000000059604645,
@@ -484,6 +484,22 @@
 					"type": "path"
 				},
 				{
+					"name": "Color",
+					"parent": 7,
+					"opacity": 1,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"width": 15,
+					"cap": 0,
+					"join": 0,
+					"trim": 0,
+					"type": "colorStroke"
+				},
+				{
 					"name": "Node",
 					"parent": 1,
 					"translation": [
@@ -502,7 +518,7 @@
 				},
 				{
 					"name": "Node",
-					"parent": 10,
+					"parent": 11,
 					"translation": [
 						0,
 						0
@@ -519,7 +535,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 11,
+					"parent": 12,
 					"translation": [
 						680.8674926757812,
 						370.0325012207031
@@ -540,7 +556,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 12,
+					"parent": 13,
 					"opacity": 1,
 					"color": [
 						0.9019607901573181,
@@ -553,7 +569,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 12,
+					"parent": 13,
 					"translation": [
 						-180.35748291015625,
 						22.88751220703125
@@ -1123,7 +1139,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 12,
+					"parent": 13,
 					"translation": [
 						180.35748291015625,
 						-22.88751220703125
@@ -1205,7 +1221,7 @@
 				},
 				{
 					"name": "Node",
-					"parent": 10,
+					"parent": 11,
 					"translation": [
 						0,
 						0
@@ -1222,7 +1238,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 16,
+					"parent": 17,
 					"translation": [
 						824.2650146484375,
 						497.9049987792969
@@ -1243,7 +1259,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 17,
+					"parent": 18,
 					"opacity": 1,
 					"color": [
 						1,
@@ -1256,7 +1272,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 17,
+					"parent": 18,
 					"translation": [
 						0,
 						0
@@ -1428,7 +1444,7 @@
 				},
 				{
 					"name": "Node",
-					"parent": 10,
+					"parent": 11,
 					"translation": [
 						0,
 						0
@@ -1445,7 +1461,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 20,
+					"parent": 21,
 					"translation": [
 						719.5750122070312,
 						278.9150085449219
@@ -1466,7 +1482,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 21,
+					"parent": 22,
 					"opacity": 1,
 					"color": [
 						0.9686274528503418,
@@ -1479,7 +1495,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 21,
+					"parent": 22,
 					"translation": [
 						0,
 						0
@@ -1651,7 +1667,7 @@
 				},
 				{
 					"name": "Node",
-					"parent": 10,
+					"parent": 11,
 					"translation": [
 						0,
 						0
@@ -1668,7 +1684,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 24,
+					"parent": 25,
 					"translation": [
 						500.6650085449219,
 						173.96499633789062
@@ -1689,7 +1705,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 25,
+					"parent": 26,
 					"opacity": 1,
 					"color": [
 						0.9882352948188782,
@@ -1702,7 +1718,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 25,
+					"parent": 26,
 					"translation": [
 						0,
 						0
@@ -1874,7 +1890,7 @@
 				},
 				{
 					"name": "Node",
-					"parent": 10,
+					"parent": 11,
 					"translation": [
 						0,
 						0
@@ -1891,7 +1907,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 28,
+					"parent": 29,
 					"translation": [
 						281.69500732421875,
 						278.6600036621094
@@ -1912,7 +1928,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 29,
+					"parent": 30,
 					"opacity": 1,
 					"color": [
 						0.13333334028720856,
@@ -1925,7 +1941,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 29,
+					"parent": 30,
 					"translation": [
 						0,
 						0
@@ -2097,7 +2113,7 @@
 				},
 				{
 					"name": "Node",
-					"parent": 10,
+					"parent": 11,
 					"translation": [
 						0,
 						0
@@ -2114,7 +2130,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 32,
+					"parent": 33,
 					"translation": [
 						176.72500610351562,
 						497.54998779296875
@@ -2135,7 +2151,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 33,
+					"parent": 34,
 					"opacity": 1,
 					"color": [
 						0.16078431904315948,
@@ -2148,7 +2164,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 33,
+					"parent": 34,
 					"translation": [
 						0,
 						0
@@ -2320,7 +2336,7 @@
 				},
 				{
 					"name": "Node",
-					"parent": 10,
+					"parent": 11,
 					"translation": [
 						0,
 						0
@@ -2337,7 +2353,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 36,
+					"parent": 37,
 					"translation": [
 						501,
 						496.75
@@ -2358,7 +2374,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 37,
+					"parent": 38,
 					"opacity": 1,
 					"color": [
 						0,
@@ -2371,7 +2387,7 @@
 				},
 				{
 					"name": "Ellipse",
-					"parent": 37,
+					"parent": 38,
 					"translation": [
 						0,
 						0
@@ -2390,7 +2406,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 36,
+					"parent": 37,
 					"translation": [
 						501,
 						496.75
@@ -2411,7 +2427,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 40,
+					"parent": 41,
 					"opacity": 1,
 					"color": [
 						0.10196078568696976,
@@ -2424,7 +2440,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 40,
+					"parent": 41,
 					"translation": [
 						0,
 						0
@@ -2521,7 +2537,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 40,
+					"parent": 41,
 					"translation": [
 						0,
 						0
@@ -2634,8 +2650,8 @@
 					"type": "node"
 				},
 				{
-					"name": "Ponteiro",
-					"parent": 44,
+					"name": "Group",
+					"parent": 45,
 					"translation": [
 						500.5,
 						497.0634765625
@@ -2652,7 +2668,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 45,
+					"parent": 46,
 					"translation": [
 						0.009995806030929089,
 						-156.0034637451172
@@ -2673,7 +2689,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 46,
+					"parent": 47,
 					"opacity": 1,
 					"color": [
 						0.10196078568696976,
@@ -2689,7 +2705,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 46,
+					"parent": 47,
 					"opacity": 1,
 					"color": [
 						0,
@@ -2702,7 +2718,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 46,
+					"parent": 47,
 					"translation": [
 						0,
 						0
@@ -2817,7 +2833,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 45,
+					"parent": 46,
 					"translation": [
 						-0.009984372183680534,
 						156.00352478027344
@@ -2838,7 +2854,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 50,
+					"parent": 51,
 					"opacity": 1,
 					"color": [
 						0.10196078568696976,
@@ -2854,7 +2870,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 50,
+					"parent": 51,
 					"opacity": 1,
 					"color": [
 						0,
@@ -2867,7 +2883,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 50,
+					"parent": 51,
 					"translation": [
 						0,
 						0
@@ -2914,7 +2930,7 @@
 				},
 				{
 					"name": "Node",
-					"parent": 54,
+					"parent": 55,
 					"translation": [
 						0,
 						0
@@ -2931,7 +2947,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						269.6516418457031,
 						814.405029296875
@@ -2952,7 +2968,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 56,
+					"parent": 57,
 					"opacity": 1,
 					"color": [
 						1,
@@ -2965,7 +2981,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 56,
+					"parent": 57,
 					"translation": [
 						-11.37664794921875,
 						-1.06005859375
@@ -3027,7 +3043,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 56,
+					"parent": 57,
 					"translation": [
 						2.808349609375,
 						-15.61505126953125
@@ -3329,7 +3345,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 56,
+					"parent": 57,
 					"translation": [
 						8.568359375,
 						16.67498779296875
@@ -3391,7 +3407,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						301.2550048828125,
 						813.364990234375
@@ -3412,7 +3428,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 61,
+					"parent": 62,
 					"opacity": 1,
 					"color": [
 						1,
@@ -3425,7 +3441,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 61,
+					"parent": 62,
 					"translation": [
 						0,
 						0
@@ -3487,7 +3503,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						330.8450012207031,
 						813.344970703125
@@ -3508,7 +3524,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 64,
+					"parent": 65,
 					"opacity": 1,
 					"color": [
 						1,
@@ -3521,7 +3537,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 64,
+					"parent": 65,
 					"translation": [
 						0,
 						0
@@ -4265,7 +4281,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						372.9599914550781,
 						813.3900146484375
@@ -4286,7 +4302,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 67,
+					"parent": 68,
 					"opacity": 1,
 					"color": [
 						1,
@@ -4299,7 +4315,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 67,
+					"parent": 68,
 					"translation": [
 						0,
 						0
@@ -4788,7 +4804,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						414.61248779296875,
 						813.364990234375
@@ -4809,7 +4825,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 70,
+					"parent": 71,
 					"opacity": 1,
 					"color": [
 						1,
@@ -4822,7 +4838,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 70,
+					"parent": 71,
 					"translation": [
 						-0.012481689453125,
 						0.0150146484375
@@ -5069,7 +5085,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 70,
+					"parent": 71,
 					"translation": [
 						0.01251220703125,
 						-0.0150146484375
@@ -5316,7 +5332,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						471.9883117675781,
 						814.405029296875
@@ -5337,7 +5353,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 74,
+					"parent": 75,
 					"opacity": 1,
 					"color": [
 						1,
@@ -5350,7 +5366,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 74,
+					"parent": 75,
 					"translation": [
 						-11.373321533203125,
 						-1.06005859375
@@ -5412,7 +5428,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 74,
+					"parent": 75,
 					"translation": [
 						2.811676025390625,
 						-15.61505126953125
@@ -5714,7 +5730,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 74,
+					"parent": 75,
 					"translation": [
 						8.561676025390625,
 						16.67498779296875
@@ -5776,7 +5792,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						513.271240234375,
 						813.42626953125
@@ -5797,7 +5813,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 79,
+					"parent": 80,
 					"opacity": 1,
 					"color": [
 						1,
@@ -5810,7 +5826,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 79,
+					"parent": 80,
 					"translation": [
 						-8.726226806640625,
 						-0.05126953125
@@ -5872,7 +5888,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 79,
+					"parent": 80,
 					"translation": [
 						3.30377197265625,
 						-28.75628662109375
@@ -5934,7 +5950,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 79,
+					"parent": 80,
 					"translation": [
 						2.1187744140625,
 						0.16375732421875
@@ -5996,7 +6012,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 79,
+					"parent": 80,
 					"translation": [
 						3.30377197265625,
 						28.64373779296875
@@ -6058,7 +6074,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						548.5800170898438,
 						813.375
@@ -6079,7 +6095,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 85,
+					"parent": 86,
 					"opacity": 1,
 					"color": [
 						1,
@@ -6092,7 +6108,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 85,
+					"parent": 86,
 					"translation": [
 						-7.375,
 						0
@@ -6154,7 +6170,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 85,
+					"parent": 86,
 					"translation": [
 						7.375,
 						0
@@ -6426,7 +6442,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						592.9149780273438,
 						813.7349853515625
@@ -6447,7 +6463,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 89,
+					"parent": 90,
 					"opacity": 1,
 					"color": [
 						1,
@@ -6460,7 +6476,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 89,
+					"parent": 90,
 					"translation": [
 						0,
 						0
@@ -6709,7 +6725,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						631.1849975585938,
 						813.3699951171875
@@ -6730,7 +6746,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 92,
+					"parent": 93,
 					"opacity": 1,
 					"color": [
 						1,
@@ -6743,7 +6759,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 92,
+					"parent": 93,
 					"translation": [
 						0,
 						0
@@ -6853,7 +6869,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						657.2449951171875,
 						813.364990234375
@@ -6874,7 +6890,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 95,
+					"parent": 96,
 					"opacity": 1,
 					"color": [
 						1,
@@ -6887,7 +6903,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 95,
+					"parent": 96,
 					"translation": [
 						0,
 						0
@@ -6949,7 +6965,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						683.8499755859375,
 						813.375
@@ -6970,7 +6986,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 98,
+					"parent": 99,
 					"opacity": 1,
 					"color": [
 						1,
@@ -6983,7 +6999,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 98,
+					"parent": 99,
 					"translation": [
 						-7.375,
 						0
@@ -7045,7 +7061,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 98,
+					"parent": 99,
 					"translation": [
 						7.375,
 						0
@@ -7317,7 +7333,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 55,
+					"parent": 56,
 					"translation": [
 						730.1025390625,
 						813.364990234375
@@ -7338,7 +7354,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 102,
+					"parent": 103,
 					"opacity": 1,
 					"color": [
 						1,
@@ -7351,7 +7367,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 102,
+					"parent": 103,
 					"translation": [
 						-0.01251220703125,
 						0.0150146484375
@@ -7598,7 +7614,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 102,
+					"parent": 103,
 					"translation": [
 						0.012451171875,
 						-0.0150146484375
@@ -7862,7 +7878,7 @@
 				},
 				{
 					"name": "Node",
-					"parent": 106,
+					"parent": 107,
 					"translation": [
 						0,
 						0
@@ -7879,7 +7895,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						246.1616668701172,
 						814.405029296875
@@ -7900,7 +7916,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 108,
+					"parent": 109,
 					"opacity": 1,
 					"color": [
 						1,
@@ -7913,7 +7929,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 108,
+					"parent": 109,
 					"translation": [
 						-11.376663208007812,
 						-1.06005859375
@@ -7975,7 +7991,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 108,
+					"parent": 109,
 					"translation": [
 						2.8083343505859375,
 						-15.61505126953125
@@ -8277,7 +8293,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 108,
+					"parent": 109,
 					"translation": [
 						8.568328857421875,
 						16.67498779296875
@@ -8339,7 +8355,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						277.7749938964844,
 						813.364990234375
@@ -8360,7 +8376,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 113,
+					"parent": 114,
 					"opacity": 1,
 					"color": [
 						1,
@@ -8373,7 +8389,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 113,
+					"parent": 114,
 					"translation": [
 						0,
 						0
@@ -8435,7 +8451,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						307.3550109863281,
 						813.344970703125
@@ -8456,7 +8472,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 116,
+					"parent": 117,
 					"opacity": 1,
 					"color": [
 						1,
@@ -8469,7 +8485,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 116,
+					"parent": 117,
 					"translation": [
 						0,
 						0
@@ -9213,7 +9229,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						349.4700012207031,
 						813.3900146484375
@@ -9234,7 +9250,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 119,
+					"parent": 120,
 					"opacity": 1,
 					"color": [
 						1,
@@ -9247,7 +9263,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 119,
+					"parent": 120,
 					"translation": [
 						0,
 						0
@@ -9736,7 +9752,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						391.12249755859375,
 						813.364990234375
@@ -9757,7 +9773,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 122,
+					"parent": 123,
 					"opacity": 1,
 					"color": [
 						1,
@@ -9770,7 +9786,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 122,
+					"parent": 123,
 					"translation": [
 						-0.01251220703125,
 						0.0150146484375
@@ -10017,7 +10033,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 122,
+					"parent": 123,
 					"translation": [
 						0.01251220703125,
 						-0.0150146484375
@@ -10264,7 +10280,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						454.05999755859375,
 						813.375
@@ -10285,7 +10301,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 126,
+					"parent": 127,
 					"opacity": 1,
 					"color": [
 						1,
@@ -10298,7 +10314,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 126,
+					"parent": 127,
 					"translation": [
 						0,
 						0
@@ -10448,7 +10464,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						502.802490234375,
 						813.364990234375
@@ -10469,7 +10485,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 129,
+					"parent": 130,
 					"opacity": 1,
 					"color": [
 						1,
@@ -10482,7 +10498,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 129,
+					"parent": 130,
 					"translation": [
 						-0.012481689453125,
 						0.0150146484375
@@ -10729,7 +10745,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 129,
+					"parent": 130,
 					"translation": [
 						0.01251220703125,
 						-0.0150146484375
@@ -10976,7 +10992,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						542.0900268554688,
 						813.375
@@ -10997,7 +11013,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 133,
+					"parent": 134,
 					"opacity": 1,
 					"color": [
 						1,
@@ -11010,7 +11026,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 133,
+					"parent": 134,
 					"translation": [
 						-7.375,
 						0
@@ -11072,7 +11088,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 133,
+					"parent": 134,
 					"translation": [
 						7.375,
 						0
@@ -11344,7 +11360,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						585.3112182617188,
 						813.42626953125
@@ -11365,7 +11381,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 137,
+					"parent": 138,
 					"opacity": 1,
 					"color": [
 						1,
@@ -11378,7 +11394,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 137,
+					"parent": 138,
 					"translation": [
 						-8.7261962890625,
 						-0.05126953125
@@ -11440,7 +11456,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 137,
+					"parent": 138,
 					"translation": [
 						3.30377197265625,
 						-28.75628662109375
@@ -11502,7 +11518,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 137,
+					"parent": 138,
 					"translation": [
 						2.1187744140625,
 						0.16375732421875
@@ -11564,7 +11580,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 137,
+					"parent": 138,
 					"translation": [
 						3.30377197265625,
 						28.64373779296875
@@ -11626,7 +11642,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						624.4983520507812,
 						814.405029296875
@@ -11647,7 +11663,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 143,
+					"parent": 144,
 					"opacity": 1,
 					"color": [
 						1,
@@ -11660,7 +11676,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 143,
+					"parent": 144,
 					"translation": [
 						-11.37335205078125,
 						-1.06005859375
@@ -11722,7 +11738,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 143,
+					"parent": 144,
 					"translation": [
 						2.8116455078125,
 						-15.61505126953125
@@ -12024,7 +12040,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 143,
+					"parent": 144,
 					"translation": [
 						8.5616455078125,
 						16.67498779296875
@@ -12086,7 +12102,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						668.4249877929688,
 						822.489990234375
@@ -12107,7 +12123,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 148,
+					"parent": 149,
 					"opacity": 1,
 					"color": [
 						1,
@@ -12120,7 +12136,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 148,
+					"parent": 149,
 					"translation": [
 						0.0050048828125,
 						-9.114990234375
@@ -12206,7 +12222,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 148,
+					"parent": 149,
 					"translation": [
 						-0.0050048828125,
 						9.114990234375
@@ -12268,7 +12284,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						707.3400268554688,
 						813.375
@@ -12289,7 +12305,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 152,
+					"parent": 153,
 					"opacity": 1,
 					"color": [
 						1,
@@ -12302,7 +12318,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 152,
+					"parent": 153,
 					"translation": [
 						-7.375,
 						0
@@ -12364,7 +12380,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 152,
+					"parent": 153,
 					"translation": [
 						7.375,
 						0
@@ -12636,7 +12652,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 107,
+					"parent": 108,
 					"translation": [
 						753.592529296875,
 						813.364990234375
@@ -12657,7 +12673,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 156,
+					"parent": 157,
 					"opacity": 1,
 					"color": [
 						1,
@@ -12670,7 +12686,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 156,
+					"parent": 157,
 					"translation": [
 						-0.01251220703125,
 						0.0150146484375
@@ -12917,7 +12933,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 156,
+					"parent": 157,
 					"translation": [
 						0.012451171875,
 						-0.0150146484375
@@ -13181,7 +13197,7 @@
 				},
 				{
 					"name": "Node",
-					"parent": 160,
+					"parent": 161,
 					"translation": [
 						0,
 						0
@@ -13198,7 +13214,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 161,
+					"parent": 162,
 					"translation": [
 						282.5616760253906,
 						814.405029296875
@@ -13219,7 +13235,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 162,
+					"parent": 163,
 					"opacity": 1,
 					"color": [
 						1,
@@ -13232,7 +13248,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 162,
+					"parent": 163,
 					"translation": [
 						-11.376678466796875,
 						-1.06005859375
@@ -13294,7 +13310,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 162,
+					"parent": 163,
 					"translation": [
 						2.808319091796875,
 						-15.61505126953125
@@ -13596,7 +13612,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 162,
+					"parent": 163,
 					"translation": [
 						8.568328857421875,
 						16.67498779296875
@@ -13658,7 +13674,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 161,
+					"parent": 162,
 					"translation": [
 						314.1650085449219,
 						813.364990234375
@@ -13679,7 +13695,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 167,
+					"parent": 168,
 					"opacity": 1,
 					"color": [
 						1,
@@ -13692,7 +13708,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 167,
+					"parent": 168,
 					"translation": [
 						0,
 						0
@@ -13754,7 +13770,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 161,
+					"parent": 162,
 					"translation": [
 						343.7550048828125,
 						813.344970703125
@@ -13775,7 +13791,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 170,
+					"parent": 171,
 					"opacity": 1,
 					"color": [
 						1,
@@ -13788,7 +13804,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 170,
+					"parent": 171,
 					"translation": [
 						0,
 						0
@@ -14532,7 +14548,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 161,
+					"parent": 162,
 					"translation": [
 						385.8699951171875,
 						813.3900146484375
@@ -14553,7 +14569,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 173,
+					"parent": 174,
 					"opacity": 1,
 					"color": [
 						1,
@@ -14566,7 +14582,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 173,
+					"parent": 174,
 					"translation": [
 						0,
 						0
@@ -15055,7 +15071,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 161,
+					"parent": 162,
 					"translation": [
 						427.52252197265625,
 						813.364990234375
@@ -15076,7 +15092,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 176,
+					"parent": 177,
 					"opacity": 1,
 					"color": [
 						1,
@@ -15089,7 +15105,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 176,
+					"parent": 177,
 					"translation": [
 						-0.01251220703125,
 						0.0150146484375
@@ -15336,7 +15352,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 176,
+					"parent": 177,
 					"translation": [
 						0.012481689453125,
 						-0.0150146484375
@@ -15583,7 +15599,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 161,
+					"parent": 162,
 					"translation": [
 						482.3712158203125,
 						813.42626953125
@@ -15604,7 +15620,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 180,
+					"parent": 181,
 					"opacity": 1,
 					"color": [
 						1,
@@ -15617,7 +15633,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 180,
+					"parent": 181,
 					"translation": [
 						-8.726226806640625,
 						-0.05126953125
@@ -15679,7 +15695,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 180,
+					"parent": 181,
 					"translation": [
 						3.30377197265625,
 						-28.75628662109375
@@ -15741,7 +15757,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 180,
+					"parent": 181,
 					"translation": [
 						2.1187744140625,
 						0.16375732421875
@@ -15803,7 +15819,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 180,
+					"parent": 181,
 					"translation": [
 						3.30377197265625,
 						28.64373779296875
@@ -15865,7 +15881,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 161,
+					"parent": 162,
 					"translation": [
 						515.9874877929688,
 						827.77001953125
@@ -15886,7 +15902,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 186,
+					"parent": 187,
 					"opacity": 1,
 					"color": [
 						1,
@@ -15899,7 +15915,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 186,
+					"parent": 187,
 					"translation": [
 						-5.6824951171875,
 						-14.39501953125
@@ -15961,7 +15977,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 186,
+					"parent": 187,
 					"translation": [
 						5.6824951171875,
 						14.39495849609375
@@ -16023,7 +16039,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 161,
+					"parent": 162,
 					"translation": [
 						554.7412719726562,
 						813.42626953125
@@ -16044,7 +16060,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 190,
+					"parent": 191,
 					"opacity": 1,
 					"color": [
 						1,
@@ -16057,7 +16073,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 190,
+					"parent": 191,
 					"translation": [
 						-8.72625732421875,
 						-0.05126953125
@@ -16119,7 +16135,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 190,
+					"parent": 191,
 					"translation": [
 						3.3037109375,
 						-28.75628662109375
@@ -16181,7 +16197,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 190,
+					"parent": 191,
 					"translation": [
 						2.11871337890625,
 						0.16375732421875
@@ -16243,7 +16259,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 190,
+					"parent": 191,
 					"translation": [
 						3.3037109375,
 						28.64373779296875
@@ -16305,7 +16321,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 161,
+					"parent": 162,
 					"translation": [
 						591.5800170898438,
 						813.375
@@ -16326,7 +16342,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 196,
+					"parent": 197,
 					"opacity": 1,
 					"color": [
 						1,
@@ -16339,7 +16355,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 196,
+					"parent": 197,
 					"translation": [
 						0,
 						0
@@ -16425,7 +16441,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 161,
+					"parent": 162,
 					"translation": [
 						632.0250244140625,
 						822.489990234375
@@ -16446,7 +16462,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 199,
+					"parent": 200,
 					"opacity": 1,
 					"color": [
 						1,
@@ -16459,7 +16475,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 199,
+					"parent": 200,
 					"translation": [
 						0.0050048828125,
 						-9.114990234375
@@ -16545,7 +16561,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 199,
+					"parent": 200,
 					"translation": [
 						-0.0050048828125,
 						9.114990234375
@@ -16607,7 +16623,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 161,
+					"parent": 162,
 					"translation": [
 						670.9400024414062,
 						813.375
@@ -16628,7 +16644,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 203,
+					"parent": 204,
 					"opacity": 1,
 					"color": [
 						1,
@@ -16641,7 +16657,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 203,
+					"parent": 204,
 					"translation": [
 						-7.375,
 						0
@@ -16703,7 +16719,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 203,
+					"parent": 204,
 					"translation": [
 						7.375,
 						0
@@ -16975,7 +16991,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 161,
+					"parent": 162,
 					"translation": [
 						717.197509765625,
 						813.364990234375
@@ -16996,7 +17012,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 207,
+					"parent": 208,
 					"opacity": 1,
 					"color": [
 						1,
@@ -17009,7 +17025,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 207,
+					"parent": 208,
 					"translation": [
 						-0.00750732421875,
 						0.0150146484375
@@ -17256,7 +17272,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 207,
+					"parent": 208,
 					"translation": [
 						0.00750732421875,
 						-0.0150146484375
@@ -17520,7 +17536,7 @@
 				},
 				{
 					"name": "Node",
-					"parent": 211,
+					"parent": 212,
 					"translation": [
 						0,
 						0
@@ -17537,7 +17553,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						180.9183349609375,
 						814.405029296875
@@ -17558,7 +17574,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 213,
+					"parent": 214,
 					"opacity": 1,
 					"color": [
 						1,
@@ -17571,7 +17587,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 213,
+					"parent": 214,
 					"translation": [
 						-11.373336791992188,
 						-1.06005859375
@@ -17633,7 +17649,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 213,
+					"parent": 214,
 					"translation": [
 						2.8116607666015625,
 						-15.61505126953125
@@ -17935,7 +17951,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 213,
+					"parent": 214,
 					"translation": [
 						8.561660766601562,
 						16.67498779296875
@@ -17997,7 +18013,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						212.52499389648438,
 						813.364990234375
@@ -18018,7 +18034,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 218,
+					"parent": 219,
 					"opacity": 1,
 					"color": [
 						1,
@@ -18031,7 +18047,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 218,
+					"parent": 219,
 					"translation": [
 						0,
 						0
@@ -18093,7 +18109,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						242.11500549316406,
 						813.344970703125
@@ -18114,7 +18130,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 221,
+					"parent": 222,
 					"opacity": 1,
 					"color": [
 						1,
@@ -18127,7 +18143,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 221,
+					"parent": 222,
 					"translation": [
 						0,
 						0
@@ -18871,7 +18887,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						284.2300109863281,
 						813.3900146484375
@@ -18892,7 +18908,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 224,
+					"parent": 225,
 					"opacity": 1,
 					"color": [
 						1,
@@ -18905,7 +18921,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 224,
+					"parent": 225,
 					"translation": [
 						0,
 						0
@@ -19394,7 +19410,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						325.88250732421875,
 						813.364990234375
@@ -19415,7 +19431,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 227,
+					"parent": 228,
 					"opacity": 1,
 					"color": [
 						1,
@@ -19428,7 +19444,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 227,
+					"parent": 228,
 					"translation": [
 						-0.01251220703125,
 						0.0150146484375
@@ -19675,7 +19691,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 227,
+					"parent": 228,
 					"translation": [
 						0.012481689453125,
 						-0.0150146484375
@@ -19922,7 +19938,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						388.82000732421875,
 						813.375
@@ -19943,7 +19959,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 231,
+					"parent": 232,
 					"opacity": 1,
 					"color": [
 						1,
@@ -19956,7 +19972,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 231,
+					"parent": 232,
 					"translation": [
 						0,
 						0
@@ -20106,7 +20122,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						435.6449890136719,
 						813.7349853515625
@@ -20127,7 +20143,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 234,
+					"parent": 235,
 					"opacity": 1,
 					"color": [
 						1,
@@ -20140,7 +20156,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 234,
+					"parent": 235,
 					"translation": [
 						0,
 						0
@@ -20389,7 +20405,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						464.7349853515625,
 						813.364990234375
@@ -20410,7 +20426,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 237,
+					"parent": 238,
 					"opacity": 1,
 					"color": [
 						1,
@@ -20423,7 +20439,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 237,
+					"parent": 238,
 					"translation": [
 						0,
 						0
@@ -20485,7 +20501,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						490.5975036621094,
 						800.4200439453125
@@ -20506,7 +20522,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 240,
+					"parent": 241,
 					"opacity": 1,
 					"color": [
 						1,
@@ -20519,7 +20535,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 240,
+					"parent": 241,
 					"translation": [
 						0.00250244140625,
 						-15.84503173828125
@@ -20581,7 +20597,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 240,
+					"parent": 241,
 					"translation": [
 						-0.00250244140625,
 						15.844970703125
@@ -20643,7 +20659,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						529.1624755859375,
 						813.364990234375
@@ -20664,7 +20680,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 244,
+					"parent": 245,
 					"opacity": 1,
 					"color": [
 						1,
@@ -20677,7 +20693,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 244,
+					"parent": 245,
 					"translation": [
 						-0.012451171875,
 						0.0150146484375
@@ -20924,7 +20940,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 244,
+					"parent": 245,
 					"translation": [
 						0.01251220703125,
 						-0.0150146484375
@@ -21171,7 +21187,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						584.01123046875,
 						813.42626953125
@@ -21192,7 +21208,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 248,
+					"parent": 249,
 					"opacity": 1,
 					"color": [
 						1,
@@ -21205,7 +21221,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 248,
+					"parent": 249,
 					"translation": [
 						-8.72625732421875,
 						-0.05126953125
@@ -21267,7 +21283,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 248,
+					"parent": 249,
 					"translation": [
 						3.30377197265625,
 						-28.75628662109375
@@ -21329,7 +21345,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 248,
+					"parent": 249,
 					"translation": [
 						2.1187744140625,
 						0.16375732421875
@@ -21391,7 +21407,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 248,
+					"parent": 249,
 					"translation": [
 						3.30377197265625,
 						28.64373779296875
@@ -21453,7 +21469,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						617.6275024414062,
 						827.77001953125
@@ -21474,7 +21490,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 254,
+					"parent": 255,
 					"opacity": 1,
 					"color": [
 						1,
@@ -21487,7 +21503,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 254,
+					"parent": 255,
 					"translation": [
 						-5.6824951171875,
 						-14.39501953125
@@ -21549,7 +21565,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 254,
+					"parent": 255,
 					"translation": [
 						5.6824951171875,
 						14.39495849609375
@@ -21611,7 +21627,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						656.3812866210938,
 						813.42626953125
@@ -21632,7 +21648,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 258,
+					"parent": 259,
 					"opacity": 1,
 					"color": [
 						1,
@@ -21645,7 +21661,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 258,
+					"parent": 259,
 					"translation": [
 						-8.72625732421875,
 						-0.05126953125
@@ -21707,7 +21723,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 258,
+					"parent": 259,
 					"translation": [
 						3.3037109375,
 						-28.75628662109375
@@ -21769,7 +21785,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 258,
+					"parent": 259,
 					"translation": [
 						2.11871337890625,
 						0.16375732421875
@@ -21831,7 +21847,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 258,
+					"parent": 259,
 					"translation": [
 						3.3037109375,
 						28.64373779296875
@@ -21893,7 +21909,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						693.219970703125,
 						813.375
@@ -21914,7 +21930,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 264,
+					"parent": 265,
 					"opacity": 1,
 					"color": [
 						1,
@@ -21927,7 +21943,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 264,
+					"parent": 265,
 					"translation": [
 						0,
 						0
@@ -22013,7 +22029,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						733.6699829101562,
 						822.489990234375
@@ -22034,7 +22050,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 267,
+					"parent": 268,
 					"opacity": 1,
 					"color": [
 						1,
@@ -22047,7 +22063,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 267,
+					"parent": 268,
 					"translation": [
 						0,
 						-9.114990234375
@@ -22133,7 +22149,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 267,
+					"parent": 268,
 					"translation": [
 						0,
 						9.114990234375
@@ -22195,7 +22211,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						772.5800170898438,
 						813.375
@@ -22216,7 +22232,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 271,
+					"parent": 272,
 					"opacity": 1,
 					"color": [
 						1,
@@ -22229,7 +22245,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 271,
+					"parent": 272,
 					"translation": [
 						-7.375,
 						0
@@ -22291,7 +22307,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 271,
+					"parent": 272,
 					"translation": [
 						7.375,
 						0
@@ -22563,7 +22579,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 212,
+					"parent": 213,
 					"translation": [
 						818.8375244140625,
 						813.364990234375
@@ -22584,7 +22600,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 275,
+					"parent": 276,
 					"opacity": 1,
 					"color": [
 						1,
@@ -22597,7 +22613,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 275,
+					"parent": 276,
 					"translation": [
 						-0.00750732421875,
 						0.0150146484375
@@ -22844,7 +22860,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 275,
+					"parent": 276,
 					"translation": [
 						0.0074462890625,
 						-0.0150146484375
@@ -23108,7 +23124,7 @@
 				},
 				{
 					"name": "Node",
-					"parent": 279,
+					"parent": 280,
 					"translation": [
 						0,
 						0
@@ -23125,7 +23141,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 280,
+					"parent": 281,
 					"translation": [
 						277.2783203125,
 						814.405029296875
@@ -23146,7 +23162,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 281,
+					"parent": 282,
 					"opacity": 1,
 					"color": [
 						1,
@@ -23159,7 +23175,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 281,
+					"parent": 282,
 					"translation": [
 						-11.373321533203125,
 						-1.06005859375
@@ -23221,7 +23237,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 281,
+					"parent": 282,
 					"translation": [
 						2.811676025390625,
 						-15.61505126953125
@@ -23523,7 +23539,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 281,
+					"parent": 282,
 					"translation": [
 						8.561676025390625,
 						16.67498779296875
@@ -23585,7 +23601,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 280,
+					"parent": 281,
 					"translation": [
 						308.885009765625,
 						813.364990234375
@@ -23606,7 +23622,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 286,
+					"parent": 287,
 					"opacity": 1,
 					"color": [
 						1,
@@ -23619,7 +23635,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 286,
+					"parent": 287,
 					"translation": [
 						0,
 						0
@@ -23681,7 +23697,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 280,
+					"parent": 281,
 					"translation": [
 						338.4750061035156,
 						813.344970703125
@@ -23702,7 +23718,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 289,
+					"parent": 290,
 					"opacity": 1,
 					"color": [
 						1,
@@ -23715,7 +23731,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 289,
+					"parent": 290,
 					"translation": [
 						0,
 						0
@@ -24459,7 +24475,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 280,
+					"parent": 281,
 					"translation": [
 						380.5899963378906,
 						813.3900146484375
@@ -24480,7 +24496,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 292,
+					"parent": 293,
 					"opacity": 1,
 					"color": [
 						1,
@@ -24493,7 +24509,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 292,
+					"parent": 293,
 					"translation": [
 						0,
 						0
@@ -24982,7 +24998,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 280,
+					"parent": 281,
 					"translation": [
 						422.24249267578125,
 						813.364990234375
@@ -25003,7 +25019,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 295,
+					"parent": 296,
 					"opacity": 1,
 					"color": [
 						1,
@@ -25016,7 +25032,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 295,
+					"parent": 296,
 					"translation": [
 						-0.012481689453125,
 						0.0150146484375
@@ -25263,7 +25279,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 295,
+					"parent": 296,
 					"translation": [
 						0.01251220703125,
 						-0.0150146484375
@@ -25510,7 +25526,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 280,
+					"parent": 281,
 					"translation": [
 						477.09124755859375,
 						813.42626953125
@@ -25531,7 +25547,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 299,
+					"parent": 300,
 					"opacity": 1,
 					"color": [
 						1,
@@ -25544,7 +25560,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 299,
+					"parent": 300,
 					"translation": [
 						-8.72625732421875,
 						-0.05126953125
@@ -25606,7 +25622,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 299,
+					"parent": 300,
 					"translation": [
 						3.303741455078125,
 						-28.75628662109375
@@ -25668,7 +25684,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 299,
+					"parent": 300,
 					"translation": [
 						2.118743896484375,
 						0.16375732421875
@@ -25730,7 +25746,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 299,
+					"parent": 300,
 					"translation": [
 						3.303741455078125,
 						28.64373779296875
@@ -25792,7 +25808,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 280,
+					"parent": 281,
 					"translation": [
 						513.8074951171875,
 						813.3674926757812
@@ -25813,7 +25829,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 305,
+					"parent": 306,
 					"opacity": 1,
 					"color": [
 						1,
@@ -25826,7 +25842,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 305,
+					"parent": 306,
 					"translation": [
 						-0.39752197265625,
 						0.00750732421875
@@ -25904,7 +25920,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 305,
+					"parent": 306,
 					"translation": [
 						0.39752197265625,
 						-0.00750732421875
@@ -25998,7 +26014,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 280,
+					"parent": 281,
 					"translation": [
 						549.6325073242188,
 						800.4200439453125
@@ -26019,7 +26035,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 309,
+					"parent": 310,
 					"opacity": 1,
 					"color": [
 						1,
@@ -26032,7 +26048,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 309,
+					"parent": 310,
 					"translation": [
 						-0.00250244140625,
 						-15.84503173828125
@@ -26094,7 +26110,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 309,
+					"parent": 310,
 					"translation": [
 						0.00250244140625,
 						15.844970703125
@@ -26156,7 +26172,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 280,
+					"parent": 281,
 					"translation": [
 						587.6983032226562,
 						814.405029296875
@@ -26177,7 +26193,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 313,
+					"parent": 314,
 					"opacity": 1,
 					"color": [
 						1,
@@ -26190,7 +26206,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 313,
+					"parent": 314,
 					"translation": [
 						-11.373291015625,
 						-1.06005859375
@@ -26252,7 +26268,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 313,
+					"parent": 314,
 					"translation": [
 						2.81170654296875,
 						-15.61505126953125
@@ -26554,7 +26570,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 313,
+					"parent": 314,
 					"translation": [
 						8.56170654296875,
 						16.67498779296875
@@ -26616,7 +26632,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 280,
+					"parent": 281,
 					"translation": [
 						628.9812622070312,
 						813.42626953125
@@ -26637,7 +26653,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 318,
+					"parent": 319,
 					"opacity": 1,
 					"color": [
 						1,
@@ -26650,7 +26666,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 318,
+					"parent": 319,
 					"translation": [
 						-8.72625732421875,
 						-0.05126953125
@@ -26712,7 +26728,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 318,
+					"parent": 319,
 					"translation": [
 						3.3037109375,
 						-28.75628662109375
@@ -26774,7 +26790,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 318,
+					"parent": 319,
 					"translation": [
 						2.11871337890625,
 						0.16375732421875
@@ -26836,7 +26852,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 318,
+					"parent": 319,
 					"translation": [
 						3.3037109375,
 						28.64373779296875
@@ -26898,7 +26914,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 280,
+					"parent": 281,
 					"translation": [
 						673.7349853515625,
 						813.375
@@ -26919,7 +26935,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 324,
+					"parent": 325,
 					"opacity": 1,
 					"color": [
 						1,
@@ -26932,7 +26948,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 324,
+					"parent": 325,
 					"translation": [
 						0,
 						0
@@ -27082,7 +27098,7 @@
 				},
 				{
 					"name": "Shape",
-					"parent": 280,
+					"parent": 281,
 					"translation": [
 						722.4824829101562,
 						813.364990234375
@@ -27103,7 +27119,7 @@
 				},
 				{
 					"name": "Color",
-					"parent": 327,
+					"parent": 328,
 					"opacity": 1,
 					"color": [
 						1,
@@ -27116,7 +27132,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 327,
+					"parent": 328,
 					"translation": [
 						-0.01251220703125,
 						0.0150146484375
@@ -27363,7 +27379,7 @@
 				},
 				{
 					"name": "Path",
-					"parent": 327,
+					"parent": 328,
 					"translation": [
 						0.01251220703125,
 						-0.0150146484375
@@ -27617,7 +27633,7 @@
 					"isLooping": false,
 					"keyed": [
 						{
-							"component": 45,
+							"component": 46,
 							"rotation": [
 								[
 									{
@@ -27634,7 +27650,7 @@
 							]
 						},
 						{
-							"component": 54,
+							"component": 55,
 							"opacity": [
 								[
 									{
@@ -27646,7 +27662,7 @@
 							]
 						},
 						{
-							"component": 106,
+							"component": 107,
 							"opacity": [
 								[
 									{
@@ -27658,7 +27674,7 @@
 							]
 						},
 						{
-							"component": 160,
+							"component": 161,
 							"opacity": [
 								[
 									{
@@ -27670,7 +27686,7 @@
 							]
 						},
 						{
-							"component": 211,
+							"component": 212,
 							"opacity": [
 								[
 									{
@@ -27682,7 +27698,7 @@
 							]
 						},
 						{
-							"component": 279,
+							"component": 280,
 							"opacity": [
 								[
 									{
@@ -27705,7 +27721,7 @@
 					"isLooping": false,
 					"keyed": [
 						{
-							"component": 45,
+							"component": 46,
 							"rotation": [
 								[
 									{
@@ -27778,7 +27794,7 @@
 							]
 						},
 						{
-							"component": 54,
+							"component": 55,
 							"opacity": [
 								[
 									{
@@ -27790,7 +27806,7 @@
 							]
 						},
 						{
-							"component": 106,
+							"component": 107,
 							"opacity": [
 								[
 									{
@@ -27802,7 +27818,7 @@
 							]
 						},
 						{
-							"component": 160,
+							"component": 161,
 							"opacity": [
 								[
 									{
@@ -27814,7 +27830,7 @@
 							]
 						},
 						{
-							"component": 211,
+							"component": 212,
 							"opacity": [
 								[
 									{
@@ -27826,7 +27842,7 @@
 							]
 						},
 						{
-							"component": 279,
+							"component": 280,
 							"opacity": [
 								[
 									{
@@ -27849,7 +27865,7 @@
 					"isLooping": false,
 					"keyed": [
 						{
-							"component": 45,
+							"component": 46,
 							"rotation": [
 								[
 									{
@@ -27942,7 +27958,7 @@
 							]
 						},
 						{
-							"component": 54,
+							"component": 55,
 							"opacity": [
 								[
 									{
@@ -27954,7 +27970,7 @@
 							]
 						},
 						{
-							"component": 106,
+							"component": 107,
 							"opacity": [
 								[
 									{
@@ -27966,7 +27982,7 @@
 							]
 						},
 						{
-							"component": 160,
+							"component": 161,
 							"opacity": [
 								[
 									{
@@ -27978,7 +27994,7 @@
 							]
 						},
 						{
-							"component": 211,
+							"component": 212,
 							"opacity": [
 								[
 									{
@@ -28035,7 +28051,7 @@
 							]
 						},
 						{
-							"component": 279,
+							"component": 280,
 							"opacity": [
 								[
 									{
@@ -28126,7 +28142,7 @@
 							]
 						},
 						{
-							"component": 45,
+							"component": 46,
 							"posX": [
 								[
 									{
@@ -28203,7 +28219,7 @@
 							]
 						},
 						{
-							"component": 54,
+							"component": 55,
 							"opacity": [
 								[
 									{
@@ -28260,7 +28276,7 @@
 							]
 						},
 						{
-							"component": 106,
+							"component": 107,
 							"opacity": [
 								[
 									{
@@ -28272,7 +28288,7 @@
 							]
 						},
 						{
-							"component": 160,
+							"component": 161,
 							"opacity": [
 								[
 									{
@@ -28284,7 +28300,7 @@
 							]
 						},
 						{
-							"component": 211,
+							"component": 212,
 							"opacity": [
 								[
 									{
@@ -28296,7 +28312,7 @@
 							]
 						},
 						{
-							"component": 279,
+							"component": 280,
 							"opacity": [
 								[
 									{
@@ -28331,7 +28347,7 @@
 							]
 						},
 						{
-							"component": 45,
+							"component": 46,
 							"posX": [
 								[
 									{
@@ -28404,7 +28420,7 @@
 							]
 						},
 						{
-							"component": 54,
+							"component": 55,
 							"opacity": [
 								[
 									{
@@ -28416,7 +28432,7 @@
 							]
 						},
 						{
-							"component": 106,
+							"component": 107,
 							"opacity": [
 								[
 									{
@@ -28428,7 +28444,7 @@
 							]
 						},
 						{
-							"component": 160,
+							"component": 161,
 							"opacity": [
 								[
 									{
@@ -28440,7 +28456,7 @@
 							]
 						},
 						{
-							"component": 211,
+							"component": 212,
 							"opacity": [
 								[
 									{
@@ -28452,7 +28468,7 @@
 							]
 						},
 						{
-							"component": 279,
+							"component": 280,
 							"opacity": [
 								[
 									{

@@ -122,12 +122,13 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
           !listando
               ? !isLoading
                   ? Container(
-                      margin: EdgeInsets.only(top: 230),
+                      margin: EdgeInsets.only(top: 210),
                       width: double.infinity,
                       height: MediaQuery.of(context).size.height - 200,
                       child: Utils.mostraMarcador(valorMarcados.toDouble()))
                   : Center(
                       child: Container(
+
                           margin: EdgeInsets.only(top: 130),
                           width: 100,
                           height: 100,
@@ -135,7 +136,6 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
                     )
               : Container(),
           Container(
-            decoration: ,
             width: double.infinity,
             height: MediaQuery.of(context).size.height,
           ),

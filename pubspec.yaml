@@ -37,6 +37,7 @@ flutter:
     - assets/Imagem-01.png
     - assets/Imagem-02.png
     - assets/Imagem-03.png
+    - assets/mapa.jpg
 
   fonts:
     - family: Bahnschrift

@@ -2,6 +2,7 @@ import 'package:app_nasa/data/rest.dart';
 import 'package:app_nasa/data/uf_cidades_data.dart';
 import 'package:app_nasa/widgets/utils.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class ListaCidadesScreen extends StatefulWidget {
@@ -13,13 +14,18 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
   List<String> cidades_filtradas, cidades = [];
   int qtd_cidades = 0;
   int t = 0;
-  double valorMarcados = null;
+  double valorMarcados = 1;
   bool isLoading = false;
+  bool listando = false;
 
   @override
   Widget build(BuildContext context) {
     setState(() {
       if (t == 0) {
+        Rest.buscaStatusLatxLon().then((double valor) {
+          valorMarcados = valor.toDouble();
+        });
+        print("valor" + valorMarcados.toString());
         FocusScope.of(context).requestFocus(new FocusNode());
         qtd_cidades = UfCidadesData.cidadeUF.length;
         cidades_filtradas = cidades = UfCidadesData.cidadeUF;
@@ -28,29 +34,28 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
     });
 
     return Scaffold(
-      floatingActionButton: FloatingActionButton(
+      floatingActionButton: !listando? FloatingActionButton(
         child: new Icon(MdiIcons.bullhorn),
         backgroundColor: Colors.red[400],
         onPressed: () async {
           setState(() {
             isLoading = true;
           });
-          Rest.buscaStatusNomeCidade("medianeira").then((valor) {
+          Rest.enviaDenuncia().then((valor) {
             print(valor);
             setState(() {
               isLoading = false;
             });
           });
         },
-      ),
+      ): Container(),
       body: Stack(
         children: <Widget>[
           Container(
             height: 200,
             decoration: BoxDecoration(
               image: DecorationImage(
-                  image: NetworkImage(
-                      'https://s2.glbimg.com/1Wh9VrSZokI1CoRhHpdgeTapEnI=/e.glbimg.com/og/ed/f/original/2018/02/22/cidade.jpg'),
+                  image: ExactAssetImage("assets/cidade.jpg"),
                   fit: BoxFit.cover),
             ),
           ),
@@ -86,6 +91,10 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
                 autofocus: true,
                 onChanged: (value) {
                   setState(() {
+                    if(value.length == 0)
+                      listando = false;
+                    else
+                      listando = true;
                     cidades_filtradas = cidadesFilter(value);
                     qtd_cidades = cidades_filtradas.length;
                   });
@@ -100,19 +109,28 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
               ),
             ),
           ),
-          !isLoading
+          listando
               ? Container(
                   margin: EdgeInsets.only(top: 230),
                   width: double.infinity,
                   height: MediaQuery.of(context).size.height - 200,
-                  child: Utils.mostraMarcador())
-              : Center(
-                  child: Container(
-                      margin: EdgeInsets.only(top: 130),
-                      width: 100,
-                      height: 100,
-                      child: Utils.mostraLoading()),
-                ),
+                  child: lista_cidades())
+              : Container(),
+          !listando
+              ? !isLoading
+                  ? Container(
+                      margin: EdgeInsets.only(top: 230),
+                      width: double.infinity,
+                      height: MediaQuery.of(context).size.height - 200,
+                      child: Utils.mostraMarcador(valorMarcados.toDouble()))
+                  : Center(
+                      child: Container(
+                          margin: EdgeInsets.only(top: 130),
+                          width: 100,
+                          height: 100,
+                          child: Utils.mostraLoading()),
+                    )
+              : Container(),
           Container(
             width: double.infinity,
             height: MediaQuery.of(context).size.height,

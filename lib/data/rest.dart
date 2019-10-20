@@ -33,16 +33,11 @@ class Rest {
     }
   }
 
-  static Future<int> buscaStatusLatxLon() async {
+  static Future<double> buscaStatusLatxLon() async {
     print("1");
     Localizacao local = await BuscaLocalizacaoAtual.buscaLocalizacao();
     print("11");
     try {
-      print(URL_GET_STATUS +
-          "?latitude=" +
-          local.latitude.toString() +
-          "&longitude=" +
-          local.longitude.toString());
       Response response = await Dio().get(URL_GET_STATUS +
           "?latitude=" +
           local.latitude.toString() +
@@ -50,12 +45,12 @@ class Rest {
           local.longitude.toString());
       print(response.toString());
       if (response.statusCode == 200) {
-        return response.data["probability"];
+        return response.data["probability"].toDouble();
       } else {
-        return 6;
+        return 6.toDouble();
       }
     } on Exception catch (_) {
-      return 6;
+      return 6.toDouble();
     }
   }
 

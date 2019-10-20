@@ -34,3 +34,13 @@ flutter:
     - assets/234049726023202.jpg
     - assets/ProcessingLogo.flr
     - assets/cidade.jpg
+    - assets/Imagem-01.png
+    - assets/Imagem-02.png
+    - assets/Imagem-03.png
+
+  fonts:
+    - family: Bahnschrift
+      fonts:
+        - asset: fonts/BAHNSCHRIFT-REGULAR.ttf
+        - asset: fonts/BAHNSCHRIFT.ttf
+          weight: 700

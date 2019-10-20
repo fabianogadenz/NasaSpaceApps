@@ -14,7 +14,7 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
   List<String> cidades_filtradas, cidades = [];
   int qtd_cidades = 0;
   int t = 0;
-  double valorMarcados = 1;
+  double valorMarcados = 0;
   bool isLoading = false;
   bool listando = false;
 
@@ -34,21 +34,24 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
     });
 
     return Scaffold(
-      floatingActionButton: !listando? FloatingActionButton(
-        child: new Icon(MdiIcons.bullhorn),
-        backgroundColor: Colors.red[400],
-        onPressed: () async {
-          setState(() {
-            isLoading = true;
-          });
-          Rest.enviaDenuncia().then((valor) {
-            print(valor);
-            setState(() {
-              isLoading = false;
-            });
-          });
-        },
-      ): Container(),
+      floatingActionButton: !listando
+          ? FloatingActionButton(
+              child: new Icon(MdiIcons.bullhorn),
+              backgroundColor: Colors.red[400],
+              onPressed: () async {
+                setState(() {
+                  isLoading = true;
+                });
+                Rest.enviaDenuncia().then((valor) {
+                  print(valor);
+                  setState(() {
+                    isLoading = false;
+                  });
+                });
+                showAlertDialog1(context);
+              },
+            )
+          : Container(),
       body: Stack(
         children: <Widget>[
           Container(
@@ -91,7 +94,7 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
                 autofocus: true,
                 onChanged: (value) {
                   setState(() {
-                    if(value.length == 0)
+                    if (value.length == 0)
                       listando = false;
                     else
                       listando = true;
@@ -132,6 +135,7 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
                     )
               : Container(),
           Container(
+            decoration: ,
             width: double.infinity,
             height: MediaQuery.of(context).size.height,
           ),
@@ -148,8 +152,16 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
             title: Text(cidades_filtradas[index].toString()),
             trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
+              setState(() {
+                isLoading = true;
+                listando = false;
+              });
               Rest.buscaStatusNomeCidade(cidades_filtradas[index].toString())
                   .then((valor) {
+                setState(() {
+                  isLoading = false;
+                  valorMarcados = valor.toDouble();
+                });
                 print(valor);
               });
             },
@@ -173,5 +185,31 @@ class _ListaCidadesScreenState extends State<ListaCidadesScreen> {
       }
     }
     return filtrados;
+  }
+
+  showAlertDialog1(BuildContext context) {
+    // configura o button
+    Widget okButton = FlatButton(
+      child: Text("OK"),
+      onPressed: () {
+        Navigator.of(context).pop();
+      },
+    );
+    // configura o  AlertDialog
+    AlertDialog alerta = AlertDialog(
+      title: Text("Sucesso!"),
+      content: Text(
+          "A sua informação foi enviada para o órgão responsável mais próximo!"),
+      actions: [
+        okButton,
+      ],
+    );
+    // exibe o dialog
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return alerta;
+      },
+    );
   }
 }

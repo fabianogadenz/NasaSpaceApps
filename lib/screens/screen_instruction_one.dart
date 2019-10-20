@@ -3,24 +3,25 @@ import 'package:flutter/material.dart';
 import 'package:intro_views_flutter/Models/page_view_model.dart';
 import 'package:intro_views_flutter/intro_views_flutter.dart';
 
+import 'lista_cidade.dart';
 class IntroOnePage extends StatelessWidget {
   static final String path =
       "lib/src/pages/onboarding/smart_wallet_onboarding.dart";
   final pages = [
     PageViewModel(
-      pageColor: Color.fromRGBO(240, 240, 240, 1.0),
-      bubbleBackgroundColor: Colors.orange,
+      pageColor: Color.fromRGBO(230, 230, 245, 1.0),
+      bubbleBackgroundColor: Color.fromRGBO(237, 28, 36, 1.0),
       title: Container(),
       body: Column(
         children: <Widget>[
           Text(
-            'Consulte a probabilidade\nde incêndio na sua \nlocalidade.',
-            style: TextStyle(fontSize: 25.0),
+            'Consulte a probabilidade\nde incêndio na sua \nlocalidade',
+            style: TextStyle(fontSize: 25.0,color: Color.fromRGBO(237, 28, 36, 1.0),fontWeight: FontWeight.bold,fontFamily: 'Bahnschrift'),
           ),
         ],
       ),
       mainImage: Image.asset(
-        'assets/234049726023202.jpg',
+        'assets/Imagem-01.png',
         width: 285.0,
         alignment: Alignment.center,
       ),
@@ -28,37 +29,37 @@ class IntroOnePage extends StatelessWidget {
     ),
     PageViewModel(
       pageColor: Color.fromRGBO(240, 240, 240, 1.0),
-      bubbleBackgroundColor: Colors.orange,
+      bubbleBackgroundColor: Color.fromRGBO(237, 28, 36, 1.0),
       title: Container(),
       body: Column(
         children: <Widget>[
           Text(
-            'Informe um principio \nde incêndio para \nas autoridades locais.',
-            style: TextStyle(fontSize: 25.0),
+            'Informe um principio \nde incêndio para \nas autoridades locais',
+            style: TextStyle(fontSize: 25.0,color: Color.fromRGBO(237, 28, 36, 1.0),fontWeight: FontWeight.bold,fontFamily: 'Bahnschrift'),
           ),
         ],
       ),
       mainImage: Image.asset(
-        'assets/234049726023202.jpg',
+        'assets/Imagem-02.png',
         width: 285.0,
         alignment: Alignment.center,
       ),
       textStyle: TextStyle(color: Colors.black),
     ),
     PageViewModel(
-      pageColor:Color.fromRGBO(240, 240, 240, 1.0),
-      bubbleBackgroundColor: Colors.orange,
+      pageColor: Color.fromRGBO(230, 230, 245, 1.0),
+      bubbleBackgroundColor: Color.fromRGBO(237, 28, 36, 1.0),
       title: Container(),
       body: Column(
         children: <Widget>[
           Text(
-            'Compartilhe informacoes sobre probabilidade de incêndio.',
-            style: TextStyle(fontSize: 25.0),
+            'Compartilhe informações \nsobre probabilidade \nde incêndio',
+            style: TextStyle(fontSize: 25.0,color: Color.fromRGBO(237, 28, 36, 1.0),fontWeight: FontWeight.bold,fontFamily: 'Bahnschrift'),
           ),
         ],
       ),
       mainImage: Image.asset(
-        'assets/234049726023202.jpg',
+        'assets/Imagem-03.png',
         width: 285.0,
         alignment: Alignment.center,
       ),
@@ -77,29 +78,21 @@ class IntroOnePage extends StatelessWidget {
               onTapDoneButton: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => HomeScreen()),
+                  MaterialPageRoute(builder: (context) => ListaCidadesScreen()),
                 );
               },
               showSkipButton: false,
               doneText: Text(
-                "Get Started",
+                "Entendi!",
               ),
-              pageButtonsColor: Colors.indigo,
+              pageButtonsColor: Color.fromRGBO(237, 28, 36, 1.0),
               pageButtonTextStyles: new TextStyle(
                 // color: Colors.indigo,
                 fontSize: 16.0,
                 fontFamily: "Regular",
               ),
             ),
-            Positioned(
-                top: 20.0,
-                left: MediaQuery.of(context).size.width / 2 - 50,
-                child:
-                Image.asset(
-                  'assets/234049726023202.jpg',
-                  width: 100,
-                )
-            )
+
           ],
         ),
       ),

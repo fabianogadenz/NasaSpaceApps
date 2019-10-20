@@ -37,6 +37,11 @@ class Rest {
     print("1");
     Localizacao local = await BuscaLocalizacaoAtual.buscaLocalizacao();
     print("11");
+    print(URL_GET_STATUS +
+        "?latitude=" +
+        local.latitude.toString() +
+        "&longitude=" +
+        local.longitude.toString());
     try {
       Response response = await Dio().get(URL_GET_STATUS +
           "?latitude=" +
@@ -45,7 +50,9 @@ class Rest {
           local.longitude.toString());
       print(response.toString());
       if (response.statusCode == 200) {
+        print(response.data["probability"].toDouble());
         return response.data["probability"].toDouble();
+
       } else {
         return 6.toDouble();
       }

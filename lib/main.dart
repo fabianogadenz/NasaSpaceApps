@@ -1,6 +1,8 @@
+import 'package:app_nasa/bloc/bloc.dart';
 import 'package:app_nasa/data/localizacao.dart';
 import 'package:app_nasa/data/rest.dart';
 import 'package:flutter/material.dart';
+import 'package:onesignal_flutter/onesignal_flutter.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,11 +24,21 @@ class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
   final String title;
 
+
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  var bloc = BlocHome();
+
+  @override
+  void initState() {
+    bloc.initOneSignal();
+    super.initState();
+  }
+
   int _counter = 0;
 
   void _incrementCounter() {

@@ -15,6 +15,7 @@ dependencies:
   dio: ^3.0.3
   onesignal_flutter: ^2.1.0
   flare_flutter: 1.6.2
+  intro_views_flutter:
 
 
 
@@ -27,4 +28,4 @@ flutter:
 
   assets:
     - assets/flare.flr
-    - assets/Animals.flr
+    - assets/234049726023202.jpg

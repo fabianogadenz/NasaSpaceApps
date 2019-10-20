@@ -1,6 +1,7 @@
 import 'package:app_nasa/bloc/bloc.dart';
 import 'package:app_nasa/data/localizacao.dart';
 import 'package:app_nasa/data/rest.dart';
+import 'package:app_nasa/screens/screen_instruction_one.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
 import 'package:onesignal_flutter/onesignal_flutter.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: IntroOnePage(),
     );
   }
 }
@@ -40,13 +41,9 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
   }
 
-  int _counter = 0;
 
   void _incrementCounter() {
     Rest.enviaDenuncia();
-    setState(() {
-      _counter++;
-    });
   }
 
 //  void initOneSignal() async {

@@ -1,4 +1,5 @@
 import 'package:app_nasa/data/localizacao.dart';
+import 'package:app_nasa/data/rest.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -29,11 +30,20 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
-    BuscaLocalizacaoAtual.buscaLocalizacao();
+    Rest.enviaDenuncia();
     setState(() {
       _counter++;
     });
   }
+
+//  void initOneSignal() async {
+//
+//    OneSignal.shared.init(await rest.getpushNotificationAppId());
+//    OneSignal.shared.setExternalUserId(await rest.getpushNotificationExternalUserId());
+////    OneSignal.shared.init("2c5801b4-9578-48fe-a070-403a5b0956af");
+////    OneSignal.shared.setExternalUserId("APPTESTE-19697");
+//    print("one signal ok");
+//  }
 
   @override
   Widget build(BuildContext context) {

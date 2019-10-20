@@ -2,7 +2,7 @@ import 'package:app_nasa/models/localizacao.dart';
 import 'package:location/location.dart';
 
 class BuscaLocalizacaoAtual {
-  static buscaLocalizacao() async {
+  static Future<Localizacao> buscaLocalizacao() async {
     var location = new Location();
     var localizacao;
     var latitude;
@@ -13,30 +13,12 @@ class BuscaLocalizacaoAtual {
       latitude = await localizacao["latitude"];
       longitude = await localizacao["longitude"];
 
-      Localizacao local = new Localizacao(latitude: latitude, longitude: longitude);
+      Localizacao local =
+          new Localizacao(latitude: latitude, longitude: longitude);
       print(local.latitude);
+      return local;
     } catch (_) {
       return null;
     }
   }
 }
-//
-//import 'package:app_nasa/models/localizacao.dart';
-//import 'package:location/location.dart';
-//
-//class BuscaLocalizacaoAtual{
-//  static Future<Localizacao> buscaLocalizacao() async {
-//    Localizacao localizacao;
-//    var location = new Location();
-//    try{
-//      var locationData = await location.getLocation();
-//      localizacao.latitude = locationData["latitude"];
-//      localizacao.longitude = locationData["longitude"];
-//      print(localizacao.latitude);
-//      return localizacao;
-//    }  catch (_) {
-//      return null;
-//    }
-//  }
-//
-//}

@@ -12,6 +12,9 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   location: 1.4.1
+  dio: ^3.0.3
+  onesignal_flutter: ^2.0.0
+
 
 dev_dependencies:
   flutter_test:

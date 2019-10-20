@@ -16,7 +16,6 @@ dependencies:
   onesignal_flutter: ^2.1.0
   flare_flutter: 1.6.2
   intro_views_flutter:
-  esys_flutter_share: ^1.0.2
 
 
 

@@ -1,7 +1,5 @@
 import 'package:app_nasa/bloc/bloc.dart';
-import 'package:app_nasa/data/rest.dart';
-import 'package:app_nasa/screens/screen_instruction_one.dart';
-import 'package:esys_flutter_share/esys_flutter_share.dart';
+import 'package:app_nasa/screens/lista_cidade.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: ListaCidadesScreen(),
     );
   }
 }
@@ -38,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _incrementCounter() {
-    Share.text('my text title', 'This is my text to share with other applications.', 'text/plain');
+//    Share.text('my text title', 'This is my text to share with other applications.', 'text/plain');
 
 //    Rest.enviaDenuncia();
   }
